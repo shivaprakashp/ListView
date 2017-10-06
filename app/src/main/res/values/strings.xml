@@ -1,3 +1,63 @@
 <resources>
     <string name="app_name">ListView</string>
+    <string name="listViewOne">List View</string>
+
+    <string-array name="names">
+        <item>Ajay</item>
+        <item>Anil</item>
+        <item>Amith</item>
+        <item>Anjaan</item>
+        <item>Agar</item>
+        <item>Macky</item>
+        <item>Brooni</item>
+        <item>Batty</item>
+        <item>Jai</item>
+        <item>Shankar</item>
+        <item>Shon</item>
+        <item>Marsh</item>
+        <item>Ready</item>
+        <item>Maxi</item>
+        <item>Jolly</item>
+        <item>Roji</item>
+    </string-array>
+
+
+    <string-array name="gender">
+        <item>Male</item>
+        <item>Male</item>
+        <item>Male</item>
+        <item>Male</item>
+        <item>Male</item>
+        <item>Female</item>
+        <item>Female</item>
+        <item>Male</item>
+        <item>Male</item>
+        <item>Male</item>
+        <item>Female</item>
+        <item>Male</item>
+        <item>Male</item>
+        <item>Male</item>
+        <item>Female</item>
+        <item>Female</item>
+    </string-array>
+
+
+    <string-array name="country">
+        <item>USA</item>
+        <item>UK</item>
+        <item>SPAIN</item>
+        <item>ISLAND</item>
+        <item>ISRAIL</item>
+        <item>DOHA</item>
+        <item>BIGEING</item>
+        <item>CHINA</item>
+        <item>RUSSIA</item>
+        <item>ITALY</item>
+        <item>IRAN</item>
+        <item>AUSTRALIA</item>
+        <item>NAMIBIA</item>
+        <item>NEW ZELAND</item>
+        <item>SOUTH AMERICA</item>
+        <item>KOREA</item>
+    </string-array>
 </resources>

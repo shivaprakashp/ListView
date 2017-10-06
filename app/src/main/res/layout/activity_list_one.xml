@@ -6,17 +6,11 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:gravity="center"
     android:layout_margin="16dp"
-    tools:context="com.shiva.app.MainActivity">
+    tools:context="com.shiva.app.list.ListOneActivity">
 
-    <Button
-        android:id="@+id/btnListOne"
+    <ListView
+        android:id="@+id/listView"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="@string/listViewOne"
-        android:textSize="20sp"
-        android:padding="5dp"/>
+        android:layout_height="match_parent"></ListView>
 </LinearLayout>
-
-
