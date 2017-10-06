@@ -1,6 +1,7 @@
 package com.shiva.app.adapters;
 
 import android.content.Context;
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -60,6 +61,8 @@ public class UsersListAdapter extends BaseAdapter {
         name.setText(users.getName());
         country.setText(users.getCountry());
         gender.setText(users.getGender()== Gender.MALE? "MALE":"FEMALE");
+
+        Log.i(TAG, "Position : "+position+" - View : "+convertView);
 
         return convertView;
     }
