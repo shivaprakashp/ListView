@@ -1,6 +1,11 @@
 <resources>
     <string name="app_name">ListView</string>
-    <string name="listViewOne">List View</string>
+    <string name="listViewOne">List View with simple layout</string>
+    <string name="listViewTwo">List View with custom layout</string>
+
+    <string name="name">Name:</string>
+    <string name="country">Country:</string>
+    <string name="gender">Gender:</string>
 
     <string-array name="names">
         <item>Ajay</item>

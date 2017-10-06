@@ -15,7 +15,16 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/listViewOne"
-        android:textSize="20sp"
+        android:textSize="18sp"
+        android:padding="5dp"/>
+
+
+    <Button
+        android:id="@+id/btnListTwo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/listViewTwo"
+        android:textSize="18sp"
         android:padding="5dp"/>
 </LinearLayout>
 

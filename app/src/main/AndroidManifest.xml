@@ -19,6 +19,9 @@
         </activity>
         <activity android:name=".list.ListOneActivity"
             android:screenOrientation="portrait"></activity>
+
+        <activity android:name=".list.ListTwoActivity"
+            android:screenOrientation="portrait"></activity>
     </application>
 
 </manifest>
