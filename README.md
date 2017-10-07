@@ -45,7 +45,10 @@ In the above log, we are trying display view and position. Once we launch the la
 display number of position.
 On while scroll it creates as many views and the total available items position.
 Major drawback of implement a listView like this, memory allocation. Because everytime I do scroll up's and down. It creates as many views.
-For each view android allocates memory, and handling of position may get differ.
+For each view android allocates memory, and handling of position may get differ. Here Hash code of each view get differ from one another.
+With current implementation we will never encounter another view with existing hash code. This is not the correct way to implement BaseAdapter.
+
+
 
 
 
