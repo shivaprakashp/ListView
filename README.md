@@ -44,9 +44,8 @@ Log.i(TAG, "Position : "+position+" - View : "+convertView);
 In the above log, we are trying display view and position. Once we launch the layout, it creates number of visible list item views and
 display number of position.
 On while scroll it creates as many views and the total available items position.
-Major drawback is it creates as many views, even though total items are 16, but it creates new view whenever user scrolls.
-while doing this, it consumes more memory. Android creates separate memory space while each scroll.
-
+Major drawback of implement a listView like this, memory allocation. Because everytime I do scroll up's and down. It creates as many views.
+For each view android allocates memory, and handling of position may get differ.
 
 
 
